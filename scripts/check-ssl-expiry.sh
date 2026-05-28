@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Default namespaces
-DEFAULT_NAMESPACES="04d1a3-prod d106d6-prod d7abee-prod eeced3-prod c84b95-prod"
+DEFAULT_NAMESPACES="04d1a3-prod d106d6-prod d7abee-prod eeced3-prod c84b95-prod 04d1a3-dev d106d6-dev d7abee-dev eeced3-dev c84b95-dev 04d1a3-test d106d6-test d7abee-test eeced3-test c84b95-test"
 
 # Prompt user with default
 read -rp "Enter OpenShift namespaces (space-separated) [default: $DEFAULT_NAMESPACES]: " NAMESPACES
